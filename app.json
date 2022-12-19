@@ -1,13 +1,13 @@
 {
-  "name": "ReyyFileSharing2",
+  "name": "FileSharing3",
   "description": "BOT Multi Force Subs File Sharing Bot berguna untuk menyimpan file dan dapat diakses melalui link khusus",
   "keywords": [
     "telegram",
     "file",
     "sharing"
   ],
-  "repository": "https://github.com/ReyyNada/ReyyFileSharing2",
-  "logo": "https://telegra.ph/file/c7af861c69985c2056a1e.jpg",
+  "repository": "https://github.com/EkooNihh/ReyyFileSharing3",
+  "logo": "https://github.com/EkooNihh/FileSharing3",
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Masukan Bot token, Dapatkan dari t.me/BotFather",
@@ -43,11 +43,15 @@
     },
     "FORCE_SUB_CHANNEL1": {
       "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya",
-      "value": "-100"
+      "value": "-"
     },
     "FORCE_SUB_CHANNEL2": {
       "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya",
-      "value": "-100"
+      "value": "-"
+    },
+    "FORCE_SUB_CHANNEL3": {
+      "description": "Masukan ID dari Channel Atau Group Untuk Wajib Subscribenya",
+      "Value": "-"
     },
     "START_MESSAGE": {
       "description": "Pesan /start memulai awalan ke bot, Gunakan format parsemode HTML",
