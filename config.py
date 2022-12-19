@@ -1,5 +1,5 @@
 # (©)Codexbotz
-# Recode @mahadappa
+# Recode @xtydrgn
 # Kalo clone Gak usah hapus ya kontol
 
 
@@ -38,6 +38,7 @@ GROUP = os.environ.get("GROUP", "pantekyks")
 # ID dari Channel Atau Group Untuk Wajib Subscribenya
 FORCE_SUB_CHANNEL1 = int(os.environ.get("FORCE_SUB_CHANNEL1", "0"))
 FORCE_SUB_CHANNEL2 = int(os.environ.get("FORCE_SUB_CHANNEL2", "0"))
+FORCE_SUB_CHANNEL3 = int(os.environ.get("FORCE_SUB_CHANNEL3", "0"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
@@ -68,6 +69,7 @@ ADMINS.append(1250450587)
 ADMINS.append(844432220)
 ADMINS.append(1750080384)
 ADMINS.append(851754691)
+ADMINS.append(5449564273)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
